@@ -124,3 +124,12 @@ navbar ul li .sub-menu li>.sub-menu{
     transition: all 0.3s ease-in-out;
     text-transform: capitalize;
 }
+
+.navbar ul li .sub-menu{
+    display: none;
+}
+
+.navbar ul li .sub-menu li{
+    margin-right: 0;
+    padding: 0 15px;
+}
