@@ -434,3 +434,19 @@ header .navbar ul li:last-child{
     transition-duration: 0.4s;
 }
 
+.search:focus, .search:hover{
+    width: 350px;
+    padding: 0;
+    border-color: #d1d0cf;
+}
+
+.expandright{
+    left: auto;
+    right: -6px;
+    bottom: -2px;
+}
+
+.search::placeholder{
+    color: #fff !important;
+}
+
