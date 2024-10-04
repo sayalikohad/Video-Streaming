@@ -505,3 +505,28 @@ input,input[type="search"]{
     color: #d1d0cf;
     transition: all 0.5s ease-in-out;
 }
+
+input:focus , input[type="search"]:focus{
+    border-color: #e50914;
+    box-shadow: none;
+    outline: none;
+}
+
+.user-m{
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    line-height: 40px;
+    font-size: 0.6rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.2;
+    color: #fff;
+}
+
+h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
+    color: inherit;
+}
