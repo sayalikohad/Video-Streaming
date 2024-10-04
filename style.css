@@ -190,3 +190,10 @@ navbar ul li .sub-menu li>.sub-menu{
     transition: all 0.5s ease-in-out;
 }
 
+header .navbar ul li .sub-menu li.current-menu-parent>a::after, 
+header .navbar ul li .sub-menu li .sub-menu li.menu-item.current-menu-item>a::after,
+header .navbar ul li .sub-menu li .sub-menu li.menu-item:hover>a::after{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: all 0.5s ease-in-out;
+}
