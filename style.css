@@ -33,3 +33,10 @@ header .navbar .menu-header-menu-container, header .navbar .menu-main-menu-conta
     display: inline-block;
     width: 100%;
 }
+
+a{
+    color: #d1d0cf;
+    text-decoration: none;
+    outline: medium none;
+    transition: all 0.5s ease-out 0s;
+}
