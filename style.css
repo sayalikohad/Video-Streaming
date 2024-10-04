@@ -65,3 +65,12 @@ header .navbar ul li.menu-item a{
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
 }
+
+header .navbar ul li.menu-item a:hover{
+    color: #e50914 !important;
+}
+
+.navbar ul li:hover > .sub-menu{
+    display: block !important;
+    animation: fade-in 0.5s cubic-bezier(0.39,0.575,0.565,1) both;
+}
