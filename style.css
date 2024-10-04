@@ -10,3 +10,7 @@ body{ font-family: 'Roboto', sans-serif;
     color: #d1d0cf;
     background: #141414;
 }
+
+.container-fluid{
+    padding: 0 100px;
+}
