@@ -97,3 +97,10 @@ navbar ul li .sub-menu li>.sub-menu{
     right: 100%;
     top: -15px;
 }
+
+.navbar ul li:last-child{
+    margin-right: 0;
+}
+.navbar ul.navbar-nav>li.menu-item:hover > a, .navbar ul.navbar-nav > li.menu-item:hover>i{
+    color: #e50914;
+}
