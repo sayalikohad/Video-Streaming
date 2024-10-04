@@ -45,3 +45,11 @@ header .navbar ul.navbar-nav{
     display: block;
     text-align: center;
 }
+
+header .navbar ul li{
+    list-style: none;
+    margin-right: 18px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
