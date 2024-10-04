@@ -175,3 +175,18 @@ navbar ul li .sub-menu li>.sub-menu{
     transition: all 0.3s ease-in-out;
     text-transform: capitalize;
 }
+
+.navbar ul li .sub-menu li>a::before{
+    position: absolute;
+    content: "";
+    background: #e50914;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 4px;
+    opacity: 0;
+    transform: translate3d(-100%,0,0);
+    transition: all 0.5s ease-in-out;
+}
+
