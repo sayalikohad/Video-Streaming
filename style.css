@@ -410,3 +410,27 @@ header .navbar ul li:last-child{
     color: #d1d0cf;
 }
 
+.search:focus+.searchbutton{
+    transition-duration: 0.4s;
+    color: #e50914;
+}
+
+.search:hover+.searchbutton{
+    color: #fff;
+}
+
+.search{
+    position: absolute;
+    left: 49px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid transparent;
+    padding: 0 0 0 16px;
+    width: 0;
+    height: 100%;
+    z-index: 10;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+
