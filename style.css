@@ -146,3 +146,19 @@ navbar ul li .sub-menu li>.sub-menu{
     transition: all 0.3s ease-in-out;
     display: inline-block;
 }
+
+.menu-sticky .navbar ul li .sub-menu > li a{
+    line-height: 1em;
+}
+
+.navbar ul li .sub-menu li > a{
+    font-size: 14px;
+    border-radius: 0;
+    display: inline-block;
+    width: 100%;
+    line-height: 1em;
+    padding: 15px;
+    color: #d1d0cf;
+    position: relative;
+    overflow: hidden;
+}
