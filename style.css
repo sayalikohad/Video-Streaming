@@ -320,3 +320,27 @@ header .navbar ul li:last-child{
 
 }
 
+.navbar-right li .iq-sub-dropdown a.iq-sub-card:last-child{
+    border-bottom: 0;
+}
+
+.notify-bg{
+    overflow: hidden;
+    z-index: 99;
+}
+
+.notify-bg::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 70px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    filter: blur(30px);
+    transform: translateX(-100px) skewX(-30deg);
+    animation: noti-before-animation 2s infinite 2s;
+}
+
