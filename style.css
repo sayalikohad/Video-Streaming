@@ -248,3 +248,11 @@ header .navbar ul li .sub-menu li:hover>a::before{
     color: #fff !important;
     font-size: 22px;
 }
+
+.dropdown-toggle.more-toggle::after{
+    content: none;
+}
+
+.mobile-more-menu{
+    display: none;
+}
