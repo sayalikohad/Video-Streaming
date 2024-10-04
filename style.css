@@ -487,3 +487,21 @@ header .navbar ul li:last-child{
     background: #191919 ;
 }
 
+.iq-search-bar .searchbox .search-link{
+    position: absolute;
+    left: 15px;
+    top: 6px;
+    font-size: 16px;
+}
+
+input,input[type="search"]{
+    width: 100%;
+    padding: 0px 15px;
+    height: 48px;
+    line-height: 48px;
+    background: #141414;
+    border: 1px solid #404043;
+    border-radius: 0;
+    color: #d1d0cf;
+    transition: all 0.5s ease-in-out;
+}
