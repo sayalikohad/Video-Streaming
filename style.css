@@ -363,3 +363,25 @@ header .navbar ul li:last-child{
     border-radius: 0;
 }
 
+.navbar-right .iq-show .iq-sub-dropdown,  .iq-show .search-box{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0,0);
+}
+
+.navbar-right .iq-sub-dropdown{
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    right: 15px;
+    background: #191919;
+    transform: translate(0,70px);
+    transition: all 0.3s;
+    padding: 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-out 0s;
+    z-index: 1;
+}
+
