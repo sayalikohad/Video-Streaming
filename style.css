@@ -28,3 +28,8 @@ header#main-header{
 header .navbar-light .navbar-brand img.logo{
     width: 160px;
 }
+
+header .navbar .menu-header-menu-container, header .navbar .menu-main-menu-container{
+    display: inline-block;
+    width: 100%;
+}
