@@ -229,3 +229,22 @@ header .navbar ul li .sub-menu li:hover>a::before{
     transition: 0.3s;
 }
 
+.nav-overlay{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 900;
+    display: block;
+    width: 100%;
+    position: fixed;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+}
+
+.more-toggle{
+    color: #fff !important;
+    font-size: 22px;
+}
