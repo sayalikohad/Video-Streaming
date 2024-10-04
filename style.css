@@ -53,3 +53,15 @@ header .navbar ul li{
     transition: all 0.3s ease-in-out;
     display: inline-block;
 }
+
+header .navbar ul li.menu-item a{
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    padding: 0 0 0 10px;
+    line-height: 70px;
+    z-index: 9;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
