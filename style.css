@@ -197,3 +197,24 @@ header .navbar ul li .sub-menu li .sub-menu li.menu-item:hover>a::after{
     transform: translate3d(0,0,0);
     transition: all 0.5s ease-in-out;
 }
+
+header .navbar ul li .sub-menu li:hover>a::after{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li .sub-menu li >a::after{
+    position: absolute;
+    content: "";
+    background: linear-gradient(270deg, rgba(11,1,2,0) 0% , rgba(255,55,65,0.3) 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translate3d(-100%,0,0);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+}
+
