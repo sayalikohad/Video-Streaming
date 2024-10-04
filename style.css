@@ -273,3 +273,13 @@ header .navbar ul li .sub-menu li:hover>a::before{
     visibility: hidden;
     z-index: 999;
 }
+
+.more-menu.show{
+    opacity: 1;
+    transform: translate(0,0);
+    visibility: visible;
+}
+
+header .navbar ul li:last-child{
+    margin-right: 0;
+}
