@@ -450,3 +450,25 @@ header .navbar ul li:last-child{
     color: #fff !important;
 }
 
+.noti-svg{
+    animation: notify 1.5s ease infinite;
+    fill: #d1d0cf;
+}
+
+.noti-svg:hover{
+    fill: #e50914;
+}
+
+.search-box{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 46px;
+    min-width: 25rem;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    transform: translate(0,70px);
+    transition: all 0.3s ease-out 0s;
+    box-shadow:  0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
