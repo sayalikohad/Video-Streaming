@@ -74,3 +74,16 @@ header .navbar ul li.menu-item a:hover{
     display: block !important;
     animation: fade-in 0.5s cubic-bezier(0.39,0.575,0.565,1) both;
 }
+
+.navbar ul li:hover .sub-menu{
+    display: block;
+    padding: 15px 0;
+    background: #141414;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-left: 0;
+    display: inline-block;
+    min-width: 256px;
+    box-shadow: 0 1px 30px 0 rgb(36 38 43 / 10%);
+}
