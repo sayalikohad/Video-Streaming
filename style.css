@@ -104,3 +104,11 @@ navbar ul li .sub-menu li>.sub-menu{
 .navbar ul.navbar-nav>li.menu-item:hover > a, .navbar ul.navbar-nav > li.menu-item:hover>i{
     color: #e50914;
 }
+
+.navbar ul.navbar-nav>li.menu-item>a{
+    text-transform: uppercase;
+}
+
+.navbar ul.navbar-nav>li:hover > a{
+    font-weight: 600;
+}
