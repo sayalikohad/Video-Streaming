@@ -53,3 +53,4 @@
 
                 selector.toggleClass('iq-show');
                 mainElement.toggleClass('active');
+                e.preventDefault();
