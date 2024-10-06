@@ -50,3 +50,5 @@
                     jQuery('.navbar-right li').removeClass('.iq-show');
                     jQuery('.navbar-right li .search-toggle').removeClass('active');
                 }
+
+                selector.toggleClass('iq-show');
