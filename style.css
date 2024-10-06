@@ -858,3 +858,28 @@ header#main-header.menu-sticky{
 .c-logo{
     width: 130px;
 }
+
+.channel-logo{
+    border-left: 5px solid #e50914;
+    background: transparent linear-gradient(270deg, rgba(11,1,2,0) 0%, rgba(255,55,65,0.3) 100%);
+    padding: 10px 10px 10px 15px;
+    width: 255px;
+    position: relative;
+    overflow : hidden;
+}
+
+.playbtn{
+    display: inline-block;
+}
+
+.playbtn img{
+    display: inline-block;
+    width: 50px;
+    filter: invert(1);
+}
+
+.playbtn img:hover{
+    background: #e50914;
+    border-radius: 50%;
+    filter: invert(0);
+}
