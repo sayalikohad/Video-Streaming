@@ -56,4 +56,6 @@
                 e.preventDefault();
             } else if (jQuery(myTargetElement).is('search-input')){} else {
                 jQuery('.navbar-right li').removeClass('.iq-show');
-                 jQuery('.navbar-right li.search-toggle')
+                 jQuery('.navbar-right li.search-toggle').removeClass('active');
+                }
+            });
