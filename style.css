@@ -716,7 +716,24 @@ header#main-header.menu-sticky{
         display: inline-block;
         width: 100%;
     }
+    
     .navbar ul{
         width: 100%;
         background: #191919;
+    }
+
+    header .navbar ul li a, header .navbar ul li.menu-item a{
+        padding: 15px;
+        z-index: inherit;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    header .navbar ul li.menu-item a{
+        line-height: 10px;
+        float: left;
+        width: 100%;
+        text-align: left;
+        padding: 10px 30px;
+        color: #fff;
     }
