@@ -766,3 +766,18 @@ header#main-header.menu-sticky{
 .iq-main-slider{
     position: relative;
 }
+
+#home-slider ul.slick-dots{
+    bottom: 30px;
+}
+
+#home-slider .slick-dots li{
+    height: auto;
+    width: auto;
+}
+#home-slider .slick-dots li button{
+    height: 2px;
+    width: 30px;
+    background: rgba(229, 9, 20, 0.4);
+    padding: 0;
+}
