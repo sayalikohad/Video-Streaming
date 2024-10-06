@@ -693,3 +693,10 @@ header#main-header.menu-sticky{
         width: 250px;
     }
 }
+
+/* header menu responsiveness  */
+@media screen and (min-width : 1200px){
+    header .navbar ul li .sub-menu li a, header.menu-sticky .navbar ul li .sub-menu li a{
+        white-space: nowrap;
+    }
+}
