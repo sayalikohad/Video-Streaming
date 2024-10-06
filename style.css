@@ -819,3 +819,24 @@ header#main-header.menu-sticky{
     position: relative;
     z-index: 1;
 }
+
+#home-slider .slick-bg.s-bg-1{
+    background-image: url(images/slider/slider1.jpg);
+}
+#home-slider .slick-bg.s-bg-2{
+    background-image: url(images/slider/slider2.jpg);
+}
+#home-slider .slick-bg.s-bg-3{
+    background-image: url(images/slider/slider3.jpg);
+}
+
+.slick-bg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 35%, rgba(83,100,141,0) 100%);
+    width: 100%;
+    z-index: -1;
+}
