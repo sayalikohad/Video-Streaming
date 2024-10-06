@@ -19,3 +19,10 @@
             jQuery(window).resize(headerHeight);
             jQuery(window).in('scroll', function() {
                 yOffset = jQuery(window).scrollTop();
+                if(yOffset >= triggerPoint){
+                    header.addClass("menu-sticky animated slideDown");
+                } else {
+                    header.removeClass("menu-sticky animated slideDown");
+                }
+            });
+        });
