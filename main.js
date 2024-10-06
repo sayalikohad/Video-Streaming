@@ -46,3 +46,7 @@
                     selector = jQuery(myTargetElement).parent().parent().parent();
                     mainElement = jQuery(myTargetElement).parent().parent();
                 }
+                if(!mainElement.hasClass('active') && jQuery('.navbar-list li').find('.active')){
+                    jQuery('.navbar-right li').removeClass('.iq-show');
+                    jQuery('.navbar-right li .search-toggle').removeClass('active');
+                }
