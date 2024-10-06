@@ -897,3 +897,19 @@ header#main-header.menu-sticky{
     overflow: hidden;
     width: 100%;
 }
+
+.big-title{
+    font-family: 'Playfair Display', serif;
+    background: url(Images/texure.jpg);
+    background-repeat: repeat-x;
+    background-position: 100% 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-font-smoothing : antialiased;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ 
+
+ 
