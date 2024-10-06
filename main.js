@@ -54,3 +54,4 @@
                 selector.toggleClass('iq-show');
                 mainElement.toggleClass('active');
                 e.preventDefault();
+            } else if (jQuery(myTargetElement).is('search-input')){} else {
