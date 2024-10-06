@@ -942,5 +942,37 @@ h6, .h6{
     color: #d1d0cf !important;
 }
 
+.text-primary{
+    color: #e50914 !important;
+}
+
+.iq-button.btn{
+    padding: 12px 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.btn{
+    outline: medium none;
+    padding: 9px 30px;
+    position: relative;
+    display: inline-block;
+    border-radius: 0 !important;
+    cursor: pointer;
+    z-index: 4;
+    transition: all 0.5s ease-out 0s;
+}
+.btn-hover{
+    background: #bf000a;
+    border: 1px solid #bf000a;
+    color: #fff;
+    transition:color 0.3s ease;
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    position: relative;
+    border-radius: 5px;
+}
+
 
  
