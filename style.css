@@ -1021,4 +1021,42 @@ a.text-primary:focus, a.text-primary:hover{
     color: #e50914;
 }
 
+/* responsiveness *********************** */
+
+@media (min-width : 1499px){
+    #home-slider h1.slider-text{
+        margin: 25px 0 0;
+    }
+    #home-slider p{
+        margin: 32px 0px;
+    }
+}
+@media (max-width : 1199px){
+    #home-slider .slick-bg{
+        height: 100%;
+    }
+}
+@media (max-width : 991px){
+    .hover-buttons .btn{
+        font-size: 10px;
+    }
+    #home-slider .slick-bg{
+        padding: 50px 0;
+    }
+
+    .r-mb-23{
+        margin-bottom: 23px;
+    }
+
+    .trailor-video{
+        display: none;
+    }
+    #home-slider h1.slider-text{
+        font-size: 35px;
+    }
+    .iq-main-slider{
+        padding-top: 60px !important;
+    }
+}
+
  
