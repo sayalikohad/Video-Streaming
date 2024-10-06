@@ -932,4 +932,15 @@ h6, .h6{
     font-size: 1.0em;
 }
 
+.slider-ratting ul li{
+    margin-right: 5px;
+}
+.text-white{
+    color: #fff !important;
+}
+.text-body{
+    color: #d1d0cf !important;
+}
+
+
  
