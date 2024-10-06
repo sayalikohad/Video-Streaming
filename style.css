@@ -707,3 +707,16 @@ header#main-header.menu-sticky{
         text-decoration: none;
     }
 }
+
+@media (max-width :991px){
+    .navbar ul.navbar-nav{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-height: 350px;
+        display: inline-block;
+        width: 100%;
+    }
+    .navbar ul{
+        width: 100%;
+        background: #191919;
+    }
