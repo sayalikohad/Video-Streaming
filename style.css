@@ -794,3 +794,28 @@ header#main-header.menu-sticky{
     top: 15%;
     left: 80px;
 }
+
+#home-slider h1.slider-text{
+    font-size: 80px;
+    margin: 15px 0;
+}
+#home-slider p{
+    margin: 20px 0;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+#home-slider .slick-bg{
+    padding: 130px 0 50px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
