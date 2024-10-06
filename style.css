@@ -741,7 +741,7 @@ header#main-header.menu-sticky{
     header .navbar ul li:hover .sub-menu{
         box-shadow: none;
     }
-    
+
     header .navbar ul li .sub-menu, header .navbar ul li:hover .sub-menu{
         display: none;
         position: relative;
@@ -760,4 +760,9 @@ header#main-header.menu-sticky{
         right: 0;
         top: 0;
     }
+}
+
+/* ******************** slider main **************** */
+.iq-main-slider{
+    position: relative;
 }
