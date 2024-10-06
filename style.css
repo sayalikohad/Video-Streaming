@@ -997,5 +997,28 @@ h6, .h6{
     box-shadow: none !important;
 }
 
+.btn-hover:hover::before, .btn-hover:focus::before, .btn-hover:active::before{
+    transform: scaleX(0);
+}
+
+.btn-link{
+    background: transparent;
+    color: #fff;
+}
+.btn-link:hover{
+    color: #e50914;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+a.text-primary:focus, a.text-primary:hover{
+    color: #e50914 !important;
+}
+.w-trailor:hover{
+    transition: all 0.5s ease;
+    color: #e50914;
+}
 
  
