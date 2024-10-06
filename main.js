@@ -31,3 +31,7 @@
         jQuery('[data-toggle=more-toggle]').on('click', function () {
             jQuery(this).next().toggleClass('show');
         });
+
+        jQuery(document).on('click', function(e){
+            let myTargetElement = e.target;
+            let selector, mainElement;
