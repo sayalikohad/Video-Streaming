@@ -716,7 +716,7 @@ header#main-header.menu-sticky{
         display: inline-block;
         width: 100%;
     }
-    
+
     .navbar ul{
         width: 100%;
         background: #191919;
@@ -737,3 +737,27 @@ header#main-header.menu-sticky{
         padding: 10px 30px;
         color: #fff;
     }
+
+    header .navbar ul li:hover .sub-menu{
+        box-shadow: none;
+    }
+    
+    header .navbar ul li .sub-menu, header .navbar ul li:hover .sub-menu{
+        display: none;
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 9;
+    }
+
+    header .navbar ul li .sub-menu li .sub-menu li.menu-item a{
+        background: transparent;
+    }
+
+    .navbar .navbar-nav li:last-child .sub-menu li:hover>.sub-menu, .navbar .navbar-nav li:nth-last-child(2) .sub-menu li:hover >.sub-menu{
+        left: auto;
+        right: 0;
+        top: 0;
+    }
+}
