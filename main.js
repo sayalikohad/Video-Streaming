@@ -38,3 +38,11 @@
             if(jQuery(myTargetElement).hasClass('search-toggle') || jQuery(myTargetElement).parent().hasClass('search-toggle') || jQuery(myTargetElement).parent().parent().hasClass('search-toggle') ){
                 if(jQuery(myTargetElement).hasClass('search-toggle')) {
                     selector = jQuery(myTargetElement).parent();
+                    mainElement = jQuery(myTargetElement);
+                } else if (jQuery(myTargetElement).parent().hasClass('search-toggle')){
+                    selector = jQuery(myTargetElement).parent().parent();
+                    mainElement = jQuery(myTargetElement).parent();
+                }else if (jQuery(myTargetElement).parent().parent().hasClass('search-toggle')){
+                    selector = jQuery(myTargetElement).parent().parent().parent();
+                    mainElement = jQuery(myTargetElement).parent().parent();
+                }
