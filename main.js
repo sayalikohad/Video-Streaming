@@ -35,3 +35,6 @@
         jQuery(document).on('click', function(e){
             let myTargetElement = e.target;
             let selector, mainElement;
+            if(jQuery(myTargetElement).hasClass('search-toggle') || jQuery(myTargetElement).parent().hasClass('search-toggle') || jQuery(myTargetElement).parent().parent().hasClass('search-toggle') ){
+                if(jQuery(myTargetElement).hasClass('search-toggle')) {
+                    selector = jQuery(myTargetElement).parent();
